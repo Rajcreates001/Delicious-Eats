@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Delicious Eats</title>
+    <link rel="stylesheet" href="menu.css">
+    <script defer src="menu.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="home.html">
+                <img src="https://res.cloudinary.com/dq81vpukr/image/upload/v1734666279/Screenshot_2024-12-20_091227_pesycy.png" alt="Delicious Eats Logo" class="logo">
+            </a>
+            <nav class="nav">
+                <a href="home.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="cart.html">Cart</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <input type="text" placeholder="Search menu items..." class="search-bar" id="menuSearch">
+            <div class="filters">
+                <label><input type="checkbox" name="dietary" value="vegan"> Vegan</label>
+                <label><input type="checkbox" name="dietary" value="gluten-free"> Gluten-Free</label>
+                <label><input type="checkbox" name="dietary" value="vegetarian"> Vegetarian</label>
+                <label><input type="checkbox" name="dietary" value="non-vegan"> Non-Vegan</label>
+            </div>
+            <br>
+            <div class="menu-items" id="menuItems">
+                <!-- Menu items dynamically rendered -->
+            </div>
+            <div id="cartMessage" class="cart-message"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Delicious Eats. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

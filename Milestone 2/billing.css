@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.billing {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.billing form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.billing label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.billing input, .billing select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.billing button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    height: 70px; /* Adjust as needed */
+    max-width: 100%;
+    display: block;
+    border-radius: 40px;
+    border-style: double;
+    border-color: white;
+    margin-bottom: 10px;
+}

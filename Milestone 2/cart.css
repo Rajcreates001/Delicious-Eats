@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.cart {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.cart-summary {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.cart-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    height: 70px; /* Adjust as needed */
+    max-width: 100%;
+    display: block;
+    border-radius: 40px;
+    border-style: double;
+    border-color: white;
+    margin-bottom: 10px;
+}
